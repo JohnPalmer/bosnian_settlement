@@ -1,0 +1,31 @@
+Name,Length,Description
+STATE00,2,2000 State FIPS Code
+COUNTY00,3,2000 County Code code
+TRACT00,6,2000 Census Tract Code
+GEOID00,11,"Concatenation of 2000 state, county and tract for Census 2000 Tract"
+POP00,14,2010 Population of the 2000 Tract
+HU00,14,2010 Housing Unit Count of the 2000 Tract
+PART00,1,2000 Tract Part Flag
+AREA00,14,Total Area of the 2000 Tract
+AREALAND00,14,Total Land Area of the 2000 Tract
+STATE10,2,2010 State FIPS Code
+COUNTY10,3,2010 County Code
+TRACT10,6,2010 Tract Code
+GEOID10,11,"Concatenation of state, county and tract for 2010 Census Tracts"
+POP10,14,2010 Population of the 2010 Tract
+HU10,14,2010 Housing Unit Count of the 2010 Tract
+PART10,1,2010 Tract Part Flag
+AREA10,14,Total Area of the 2010 Tract
+AREALAND10,14,Total Land Area of the 2010 Tract
+AREAPT,14,Area for the record
+AREALANDPT,14,Land Area for the record
+AREAPCT00PT,5,Calculated Percent of the Total 2000 Tract the Area represents (to 2 decimal points)
+AREALANDPCT00PT,5,Calculated Percent of the Total 2000 Tract the Land Area represents (to 2 decimal points)
+AREAPCT10PT,5,Calculated Percent of the Total 2010 Tract the Area represents (to 2 decimal points)
+AREALANDPCT10PT,5,Calculated Percent of the Total 2010 Tract the Land Area represents (to 2 decimal points)
+POP10PT,14,Calculated 2010 Population for the relationship record
+POPPCT00,5,Calculated Percentage of the POP00 this record (POP10PT) contains (to 2 decimal points)
+POPPCT10,5,Calculated Percentage of the POP10 this record (POP10PT) contains (to 2 decimal points)
+HU10PT,14,Calculated 2010 Housing Unit count for the relationship record
+HUPCT00,5,Calculated Percentage of the HU00 this record (HU10PT) contains (to 2 decimal points)
+HUPCT10,5,Calculated Percentage of the HU10 this record (HU10PT) contains (to 2 decimal points)
